@@ -1,0 +1,49 @@
+body{
+	
+	box-sizing: border-box;
+}
+img {
+    height: 230px;
+    width: 230px;
+    display: inline-block;
+    margin-left: 45%;
+}
+
+.leftText{
+	font-size: 13px;
+    text-align: right;
+    margin-right: 21px;
+}
+
+.tableRow{
+	font-size: 20px;
+    border: 2px solid black;
+    height: 60px;
+    line-height: 60px;
+    color: #4078C0;
+    padding-left: 22px;
+}
+
+#leftColumn{
+	display:inline-block;
+	width:39%;
+	vertical-align: top;
+
+}
+#rightColumn{
+	display:inline-block;
+	width:60%;
+	
+}
+#tableHeader{
+	background-color: lightgray;
+	margin-top:20px;
+	color:black;
+}
+#name{
+	font-size:18px;
+}
+#repoBar {
+	margin-top:20px;
+	border: 2px solid black;
+}
