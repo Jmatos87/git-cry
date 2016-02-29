@@ -6,7 +6,7 @@ var inputEl = document.querySelector('input')
 var baseURL = 'https://api.github.com/users/'
 var myURL = baseURL + 'jmatos87'
 
-inputEl.placeholder = 'Touch and Enter Me'
+inputEl.placeholder = 'Search by user name'
 
 
 
@@ -90,6 +90,11 @@ inputEl.addEventListener("keydown",inputToUrl)
 
 window.addEventListener("hashchange",controller)
 
+
+if (location.hash !== ''){
+		controller()
+}
+else{
 myPromise.then(objectToHTML)
 myWork.then(arrayToHTML)
-
+}
